@@ -130,6 +130,7 @@ p {
     flex-wrap: wrap;
 }
 
-.links img{
+.links img {
     max-height: 200px;
+    margin-right: 10px;
 }
