@@ -134,3 +134,41 @@ p {
     max-height: 200px;
     margin-right: 10px;
 }
+
+.dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 0.5rem 1rem 1rem 1rem;
+    background-color: #86eba4;
+    
+  }
+  
+  .dashboard-card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    background-color: #86eba4;
+  }
+  
+  .dashboard-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+  
+  }
+  
+  .card-detail {
+    padding: 10px;
+  }
+  
+  .card-detail>h3 {
+    justify-content: center;
+   color: rgba(250, 235, 215, 0.877);
+  }
