@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bulma": "^0.9.4"
+  },
+  "name": "challenge-2-",
+  "description": "Starter code and styling to future portfolio page to be presented to potential employers \r ![alt text](./Assets/images/12345.JPG)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpratt57/Challenge-2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpratt57/Challenge-2-/issues"
+  },
+  "homepage": "https://github.com/tpratt57/Challenge-2-#readme"
+}

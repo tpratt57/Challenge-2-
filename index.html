@@ -1,142 +1,72 @@
-<!-- Decleration of doctype -->
 <!DOCTYPE html>
-<html lang="en-us">
-<!-- Decleration of Webpage name, characters, and linking style.css -->
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&display=swap" rel="stylesheet">
-    <title>Trevor Pratt</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./Assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="./Assets/images/istockphoto-1036106390-170667a.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet2">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha256-46qynGAklSFpVbEBog43gvNhfrOj+BmwXdxFgVk/Kvc=" crossorigin="anonymous">
+  <title>Trevor | Full Stack Developer</title>
 </head>
-<!-- header with nav links with a reference #ID -->
 
 <body>
-    <header class="header">
-        <h1> Tre<span class="vor"></span>vor Pra<span class="tt"></span>tt</h1>
-
-        <!-- Nav Links Div -->
-        <div>
-            <ul>
-                <li>
-                    <!--About Me-->
-                    <a href="#about-me"> About Me </a>
-                </li>
-                <li>
-                    <!--Work-->
-                    <a href="#work"> Work </a>
-                </li>
-                <li>
-                    <!--Contact Me-->
-                    <a href="#contact-me"> Contact Me </a>
-                </li>
-                <li>
-                    <!--Resume-->
-                    <a href="#resume"> Resume </a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <!-- div class hero -->
-    <div class="hero" title="Trevor Pratt">
+  <header>
+    <div class="logo">
+      <img src="./Assets/images/istockphoto-1036106390-170667a.png" alt="">
 
     </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="HaMbUrGeR"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="+" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="+" class="nav__link">My Works</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- About Me div -->
-<div class="mainContent">
-    <div id="about-me" class="aboutMe">
-        <h2> About Me </h2>
-        <p>
-            Hello, my name is Trevor Pratt, I am twenty-one years old and I am from San Antonio Texas. I have worked at
-            Discount Tire Co. for roughly three years and now have an uncanny ability to turn any conversation into one
-            about tires and the importance of tire maitnence. In my free time I love to play video games, play guitar
-            and saxophone, compose music, live stream and make videos of cool things I did while playing video games.
-        </p>
-    </div>
+  <!-- Introduction -->
 
-    <!-- Work div -->
+  <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong> Trevor Pratt </strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro"> Full-Stack Dev </p>
+      <img src="./Assets/images/37113422_1981791638519181_3994268148751663104_n.jpg" alt="Trevor walking his dog precious">
+  </section>
 
-    <div class="dashboard-content">
-        <div class="dashboard-card">
-            <a href="https://tpratt57.github.io/run-buddy/"> <img class="card-image" src="./Assets/images/Screenshot 2022-05-14 134133 (2).png"> </a>
-          <div class="card-detail">
-            <h2> Run-Buddy </h2>
-          </div>
-        </div>
-      </div>
-      <div class="dashboard-content">
-        <div class="dashboard-card">
-            <a href="https://tpratt57.github.io/food-finder/"> <img class="card-image" src="./Assets/images/Desktop Screenshot 2022.06.16 - 18.06.57.24.png"> </a>
-          <div class="card-detail">
-            <h2> Food Finder </h2>
-          </div>
-        </div>
-      </div>
-      <div class="dashboard-content">
-        <div class="dashboard-card">
-            <a href="https://component-fluid-app.herokuapp.com/"> <img class="card-image" src="./Assets/images/Desktop Screenshot 2022.08.11 - 21.01.54.95.png"> </a>
-          <div class="card-detail">
-            <h2> Component's Fluid </h2>
-          </div>
-        </div>
+  <!-- My Services -->
+
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services"> What I Do </h2>
+    <div class="services">
+      
+      <div class="service">
+        <h3></h3>
+        <p></p>
       </div>
 
-    <!-- Resume div -->
+      <div class="service">
+        <h3></h3>
+        <p></p>
+      </div>
 
-    <div id="contact-me" class="contactMe">
-        <h2> Contact Me </h2>
-        <p> Cell Phone: (210)-400-4463
-            <br>
-            Email: pratttrevor79@gmail.com
-            <br>
-            seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
-            messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund
-            Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche
-            tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa
-            you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
-        </p>
+      <div class="service">
+        <h3></h3>
+        <p></p>
+      </div>
+
     </div>
 
-    <div id="resume" class="rresume">
-        <h2> Resume </h2>
-        <p>
-            Insert resume link, probably from LinkedIn???
-            <br>
-            seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
-            messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund
-            Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche
-            tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa
-            you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
-        </p>
-    </div>
-</div>
+    <a href="work" class="btn"> My Works </a>
+  </section>
 </body>
-
-
-<!-- main HTML tag wrapping all the content we want flex-direction column-->
-
-
-<!-- A big div going sideways (div) flex-direction row width of 75% -->
-
-<!-- aside width of 25% -->
-<!-- article  -->
-<!-- A big div going sideways (div) flex  -->
-
-
-<!-- A big div going sideways (div) -->
-
-<!-- aside -->
-<!-- article -->
-<!-- A big div going sideways (div) flex  -->
-
-
-<!-- A big div going sideways (div) -->
-
-<!-- aside -->
-<!-- article -->
-<!-- A big div going sideways (div) flex  -->
-
-<!-- main HTML tag wrapping all the content -->
 
 </html>
